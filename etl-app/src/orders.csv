@@ -1,0 +1,5 @@
+Order Number,Year,Month,Day,Product Number,Product Name,Count,Extra Col1,Extra Col2,Empty Column
+1000,2018,1,1,P-10001,Arugola,"5,250.50",Lorem,Ipsum,
+1001,2017,12,12,P-10002,Iceberg lettuce,500.00,Lorem,Ipsum,
+1002,2018,1,2,P-10003,Tomato,101.3,,,
+1003,2018,2,21,P-10002,Iceberg lettuce,101.3,Lorem,Ipsum,

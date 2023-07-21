@@ -1,0 +1,5 @@
+OrderID,OrderDate,ProductId,ProductName,Quantity,Unit
+1000,2018-01-01 00:00:00,P-10001,Arugola,5250.50,kg
+1001,2017-12-12 00:00:00,P-10002,Iceberg Lettuce,500.00,kg
+1002,2018-01-02 00:00:00,P-10003,Tomato,101.30,kg
+1003,2018-02-21 00:00:00,P-10002,Iceberg Lettuce,101.30,kg
