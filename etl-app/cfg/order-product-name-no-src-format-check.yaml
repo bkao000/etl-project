@@ -1,0 +1,23 @@
+mapping:
+  - tgt: OrderID
+    type: Integer
+    src: Order Number
+  - tgt: 'OrderDate'
+    type: Date
+    src: ['Year', 'Month', 'Day']
+    function: FormatDate
+  - tgt: ProductId
+    type: String
+    src: Product Number
+    format: "[A-Z0-9]+"
+  - tgt: ProductName  
+    type: String
+    src: Product Name
+    case: UpperCase
+  - tgt: Quantity
+    type: BigDecimal
+    src: Count
+  - tgt: Unit
+    type: String
+    src: "n/a"
+    default: kg
