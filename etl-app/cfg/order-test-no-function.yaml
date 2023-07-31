@@ -5,7 +5,6 @@ mapping:
   - tgt: 'OrderDate'
     type: Date
     src: ['Year', 'Month', 'Day']
-    function: FormatDate
   - tgt: ProductId
     type: String
     src: Product Number
@@ -13,12 +12,12 @@ mapping:
   - tgt: ProductName  
     type: String
     src: Product Name
-    case: UpperCase
+    case: CamelCase
     format: "[A-Z]+"
   - tgt: Quantity
     type: BigDecimal
     src: Count
   - tgt: Unit
     type: String
-    src: "n/a"
+    src: n/a
     default: kg

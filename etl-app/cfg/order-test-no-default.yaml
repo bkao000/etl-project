@@ -13,12 +13,11 @@ mapping:
   - tgt: ProductName  
     type: String
     src: Product Name
-    case: UpperCase
+    case: TitleCase
     format: "[A-Z]+"
   - tgt: Quantity
     type: BigDecimal
     src: Count
   - tgt: Unit
     type: String
-    src: "n/a"
-    default: kg
+    src: n/a

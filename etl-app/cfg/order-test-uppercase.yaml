@@ -20,5 +20,5 @@ mapping:
     src: Count
   - tgt: Unit
     type: String
-    src: "n/a"
+    src: n/a
     default: kg
