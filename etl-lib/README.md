@@ -4,11 +4,13 @@ A library for data transformation functions.
 ### Requirements
 python 3.10
 ### Installation
+```
 Install transformation module
     - Change to etl-project/etl-lib/transformation directory
     - Run these commands:
         python setup.py sdist
         python install .
+```
 
 ### Usage
 How to transform data to transform data with this library:
@@ -53,4 +55,11 @@ print(result)
 result = transformation.StringToLowerCase('Iceberg lettuce')
 print(result)
 >>> iceberg lettuce
+```
+
+### Unit Tests
+```
+Change to etl-project/etl-lib directory.
+Run the command:
+    python -m unittest -v transformation_tests
 ```
